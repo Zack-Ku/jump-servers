@@ -1,0 +1,21 @@
+#!/bin/sh
+case $1 in 
+s1 | server1)
+	echo server1
+	server1
+	;; 
+s2 | server2)
+	echo server2
+	server2
+	;;
+s3 | server3)
+	echo server3
+	server3
+	;;
+s4 | server4)
+	echo server4
+	server4
+	;; 
+*)
+	echo not match server! s1/s2/s3/s4
+esac

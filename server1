@@ -1,0 +1,7 @@
+#!/usr/bin/expect
+
+set timeout 3
+spawn ssh -i ~/.ssh/server1.pem username@127.0.0.1 -p 2222
+expect "*passphrase*"
+send "yourpassword\r"
+interact
