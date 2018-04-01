@@ -1,7 +1,7 @@
 # jump-servers
 跳板机登录通用命令
-执行命令： jump-server s1
-适用对象：win10（powershell），linux，macOS
+执行命令： jump-server s1         
+适用对象：win10（powershell），linux，macOS          
 使用方法：     
 1. 打开server1/2/3/4文件
 2. 修改里面的私钥路径 **~/.ssh/server1.pem** 
